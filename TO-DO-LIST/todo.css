@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f7c3c3;
+}
+
+.container{
+    width:400px;
+    background:rgb(245, 86, 86);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(12, 12, 12, 1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#0e0d0d;
+}
+
+.input-box{
+    display:flex;
+    gap:10px;
+}
+
+.input-box input{
+    flex:1;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+}
+
+.input-box button{
+    padding:10px 15px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.input-box button:hover{
+    background:#0056b3;
+}
+
+ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+li{
+    background:white;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+li.completed span{
+    text-decoration:line-through;
+    color:rgb(146, 146, 146);
+}
+
+.actions button{
+    margin-left:5px;
+    border:none;
+    padding:5px 8px;
+    cursor:pointer;
+    border-radius:4px;
+    color:white;
+}
+
+.complete-btn{
+    background:green;
+}
+
+.edit-btn{
+    background:rgb(33, 31, 151);
+}
+
+.delete-btn{
+    background:red;
+}
