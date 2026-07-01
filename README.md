@@ -137,13 +137,3 @@ As I continue learning, I plan to:
 If you found these projects helpful, consider giving this repository a **Star ⭐**. Your support motivates me to continue building and sharing more projects.
 
 Thank you for visiting my repository! 😊
-
-| Project | Technology | Status |
-|---------|------------|--------|
-| 👨‍💼 Employee Management System | Django, MySQL | ✅ Completed |
-| 📝 To-Do List | Django | ✅ Completed |
-| 🏥 Doctor Appointment System | Python | ✅ Completed |
-| 📦 Inventory Management System | Python | ✅ Completed |
-| 📱 Mobile Recharge System | Python | ✅ Completed |
-| 🎬 Movie Ticket Booking System | Python | ✅ Completed |
-| 🥬 Vegetable Market System | Python | ✅ Completed |
